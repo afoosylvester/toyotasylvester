@@ -1,0 +1,292 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+/* navbar starts here */
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ padding: 10px 40px;
+ background: rgba(128, 128, 128, 0.346);
+}
+
+img{
+    width: 150px;
+    height: 50px;
+}
+
+.navlink{
+    width: 30%;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: brown;
+    font-size: 25px;
+}
+/* navbar end here */
+
+/* hero section start here */
+.hero{
+    width: 100%;
+    height: 89vh;
+    background: url(./image/Test\ Drive\ New\ Cars\ for\ Money\ \(Easiest\ $50\ Ever\).jfif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.herooverlay{
+background: rgba(0, 0, 0, 0.7);
+width: 100%;
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+h2{
+    font-size: 70px;
+    color: white;      
+}
+
+p{
+    font-size: 30px;
+    text-align: center;
+    color:white ;
+    
+}
+/* hero section end here */
+/* gallery section start here */
+.gallery{
+    width: 100%;
+    height: 89vh;
+    background: url(./image/Gallery\ of\ Toyota\ Corolla\ Shinosaka\ Meishin\ Ibaraki\ Showroom\ _\ Takenaka\ Corporation\ \ -\ 12.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.galleryoverlay{
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.galleryp{
+    font-size: 23px;
+}
+
+h3{
+    font-size: 40px;
+    color: white;
+}
+.galleryimages{
+    margin: 60px 20px 20px 20px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    overflow-x: auto;
+    gap: 15px;
+}
+.image1{
+    background:url(./image/Supra\ \(1\).jpg);
+    width: 350px;
+    height: 300px;
+    border: 2px solid white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.image2{
+    background:url(./image/bc3ffe6d-21e7-4dfa-8e13-54281f4f83ce.jpg);
+    width: 350px;
+    height: 300px;
+    border: 2px solid white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.image3{
+    background:url(./image/7c907b70-e08a-4004-bd20-5b6f1deabc03.jpg);
+    width: 350px;
+    height: 300px;
+    border: 2px solid white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.image4{
+    background:url(./image/78b73406-131f-4a4e-8c47-4e351f66dfbb.jpg);
+    width: 350px;
+    height: 300px;
+    border: 2px solid white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.image5{
+    background:url(./image/16983b33-7254-462d-be24-b8b281da79b0.jpg);
+    width: 350px;
+    height: 300px;
+    border: 2px solid white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.image6{
+    background:url(./image/0c100af1-c553-40ff-8a8f-186447c2fc34.jpg);
+    width: 350px;
+    height: 300px;
+    border: 2px solid white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* gallery section end here */
+/* team section start here */
+.team{
+    border: 2px solid tomato;
+    height: 100vh;
+    width: 100vw;
+    background: url(./image/Slammed\ Camry.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.teamoverlay{
+
+background:rgb(247, 247, 247,0.9) ;
+width: 100%;
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.team h3{
+    color: black;
+}
+
+.teamimages{
+    margin: 60px 20px 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    overflow-x: auto;
+    gap: 15px;
+}
+.teamimage1{
+    background: url(./image/20\ Best\ Male\ Model\ Poses\ Ideas\ \(1\).jpg);
+    height: 400px;
+    width: 350px;
+    background-position: center;
+   background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.teamimage1 h4:hover {
+    display: flex;
+    color: white;
+    font-size: 30px;
+}
+
+.teamimage1 p:hover{
+    font-size: 15px;
+}
+
+.teamimage2{
+   background: url(./image/17\ Smart\ Posing\ Tips\ to\ Capture\ Perfect\ Male\ Portrait\ Photographs\ For\ 2025\ \(1\).jpg);
+    height: 400px;
+    width: 350px;
+    background-position: center;
+   background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.teamimage2 h4:hover{
+    display: flex;
+    color: white;
+    font-size: 30px;
+}
+
+.teamimage2 p:hover{
+    font-size: 15px;
+}
+
+.teamimage3{
+    background: url(./image/Professional\ headshot\ of\ a\ businessman_\ Corporate\ photography.jpg);
+    height: 400px;
+    width: 350px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.teamimage3 h4:hover{
+    display: flex;
+    color: white;
+    font-size: 30px;
+}
+
+.teamimage3 p:hover{
+    font-size: 15px;
+}
+/*  team section end here  */
+             /*  Footer section starts here   */
+footer{
+border: 2px  solid blue;
+height: 100%; 
+width: 80px;  
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+footer p{
+color: black;
+}
